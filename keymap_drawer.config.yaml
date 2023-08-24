@@ -450,6 +450,24 @@ parse_config:
       tap: $$mdi:toggle-switch$$
       hold: $$mdi:bluetooth$$
 
+    # Mouse
+    "&mmv MOVE_LEFT":
+      shifted: $$mdi:mouse$$
+      tap: ""
+      hold: $$mdi:arrow-left-bold$$
+    "&mmv MOVE_RIGHT":
+      shifted: $$mdi:mouse$$
+      tap: ""
+      hold: $$mdi:arrow-right-bold$$
+    "&mmv MOVE_UP":
+      shifted: $$mdi:mouse$$
+      tap: ""
+      hold: $$mdi:arrow-up-bold$$
+    "&mmv MOVE_DOWN":
+      shifted: $$mdi:mouse$$
+      tap: ""
+      hold: $$mdi:arrow-down-bold$$
+
     # Reset
     "&sys_reset":
       tap: $$mdi:backup-restore$$
@@ -657,10 +675,12 @@ parse_config:
     BT_CLR: $$mdi:bluetooth-off$$
     BT_SEL: $$mdi:bluetooth-connect$$
     BT_PRV: 
-      tap: $$mdi:skip-previous$$
+      tap: ""
+      hold: $$mdi:skip-previous$$
       shifted: $$mdi:bluetooth-connect$$
     BT_NXT: 
-      tap: $$mdi:skip-next$$
+      tap: ""
+      hold: $$mdi:skip-next$$
       shifted: $$mdi:bluetooth-connect$$
 
     # Settings
