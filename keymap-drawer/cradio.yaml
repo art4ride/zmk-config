@@ -10,28 +10,28 @@ layers:
   - F
   - U
   - Z
-  - BKSP
+  - {t: '$$mdi:backspace$$', type: backspace}
   - I
-  - {t: S, h: LCTL}
+  - {t: S, h: '$$mdi:apple-keyboard-control$$'}
   - {t: R, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: T, h: LGUI}
+  - {t: T, h: '$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: N, h: RGUI}
+  - {t: N, h: '$$mdi:apple-keyboard-command$$'}
   - {t: K, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: A, h: RCTL}
+  - {t: A, h: '$$mdi:apple-keyboard-control$$'}
   - O
   - {t: Q, h: '$$mdi:apple-keyboard-shift$$'}
   - V
   - W
   - D
-  - {t: SPC, h: LC(LS(LALT))}
+  - {t: '$$mdi:keyboard-space$$', h: LC(LS(LALT))}
   - E
   - H
   - Y
   - {t: ., h: '!', s: '>'}
   - {t: X, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: SPC, h: LC(LS(LALT))}
+  - {t: '$$mdi:keyboard-space$$', h: LC(LS(LALT))}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - E
@@ -47,14 +47,14 @@ layers:
   - ^
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-tab$$
-  - {t: '=', h: LCTL, s: +}
+  - {t: '=', h: '$$mdi:apple-keyboard-control$$', s: +}
   - {t: LA(RBKT), h: '$$mdi:apple-keyboard-option$$'}
-  - {t: LA(LS(RBKT)), h: LGUI}
+  - {t: LA(LS(RBKT)), h: '$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '{', h: RGUI}
+  - {t: '{', h: '$$mdi:apple-keyboard-command$$'}
   - {t: '}', h: '$$mdi:apple-keyboard-option$$'}
-  - {t: '|', h: RCTL}
+  - {t: '|', h: '$$mdi:apple-keyboard-control$$'}
   - '&'
   - {t: '~', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '`', s: '~'}
@@ -84,10 +84,10 @@ layers:
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:volume-low$$', h: '$$mdi:apple-keyboard-option$$'}
-  - {t: '$$mdi:volume-high$$', h: LGUI}
+  - {t: '$$mdi:volume-high$$', h: '$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '4', h: RGUI, s: $}
+  - {t: '4', h: '$$mdi:apple-keyboard-command$$', s: $}
   - {t: '5', s: '%'}
   - {t: '6', s: ^}
   - {t: '=', s: +}
@@ -124,14 +124,14 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-down-bold$$
   - {t: '$$mdi:arrow-up-bold$$', h: '$$mdi:apple-keyboard-option$$'}
-  - {t: '$$mdi:arrow-right-bold$$', h: RCTL}
+  - {t: '$$mdi:arrow-right-bold$$', h: '$$mdi:apple-keyboard-control$$'}
   - LG(RBKT)
   - $$mdi:apple-keyboard-shift$$
   - '&mkp RCLK'
   - '&mwh SCROLL_UP'
   - '&mwh SCROLL_DOWN'
   - default
-  - RGUI
+  - $$mdi:apple-keyboard-command$$
   - {t: PG DN, h: HOME}
   - {t: PG UP, h: END}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -139,7 +139,7 @@ layers:
   - default
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - RGUI
+  - $$mdi:apple-keyboard-command$$
   bt:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -181,7 +181,7 @@ combos:
 - p: [7, 8]
   k: tri
 - p: [27, 28]
-  k: RET
+  k: {t: '$$mdi:keyboard-return$$', type: enter}
 - p: [30, 33]
   k: left
 - p: [24, 25]
