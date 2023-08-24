@@ -108,7 +108,7 @@ layers:
   tri:
   - {t: '$$mdi:transfer$$', type: trans}
   - '&mwh SCROLL_LEFT'
-  - '&mmv MOVE_UP'
+  - {h: '$$mdi:arrow-up-bold$$', s: '$$mdi:mouse$$'}
   - '&mwh SCROLL_RIGHT'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -117,9 +117,9 @@ layers:
   - LG(LBKT)
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-tab$$
-  - '&mmv MOVE_LEFT'
-  - '&mmv MOVE_DOWN'
-  - '&mmv MOVE_RIGHT'
+  - {h: '$$mdi:arrow-left-bold$$', s: '$$mdi:mouse$$'}
+  - {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:mouse$$'}
+  - {h: '$$mdi:arrow-right-bold$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-down-bold$$
@@ -161,8 +161,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:skip-previous$$', s: '$$mdi:bluetooth-connect$$'}
-  - {t: '$$mdi:skip-next$$', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '$$mdi:skip-previous$$', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '$$mdi:skip-next$$', s: '$$mdi:bluetooth-connect$$'}
   - $$mdi:bluetooth-off$$
   - {t: '$$mdi:transfer$$', type: trans}
   - default
