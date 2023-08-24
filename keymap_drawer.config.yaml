@@ -267,7 +267,7 @@ draw_config:
     }
     .shifted,
     .hold {
-        font-size: 16px;
+        font-size: 18px;
         text-anchor: middle;
     }
 
