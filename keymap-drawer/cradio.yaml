@@ -161,8 +161,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - BT PRV
-  - BT NXT
+  - {t: '$$mdi:bluetooth$$', h: '$$mdi:navigate-previous$$'}
+  - {t: '$$mdi:bluetooth$$', h: '$$mdi:navigate-next$$'}
   - $$mdi:bluetooth-off$$
   - {t: '$$mdi:transfer$$', type: trans}
   - default
