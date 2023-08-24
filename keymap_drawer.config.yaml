@@ -656,6 +656,12 @@ parse_config:
     # Bluetooth
     BT_CLR: $$mdi:bluetooth-off$$
     BT_SEL: $$mdi:bluetooth-connect$$
+    BT_PRV: 
+      tap: $$mdi:bluetooth$$
+      hold: $$mdi:navigate-previous$$
+    BT_NXT: 
+      tap: $$mdi:bluetooth$$
+      hold: $$mdi:navigate-next$$
 
     # Settings
     C_BRI_UP: $$mdi:brightness-5$$
