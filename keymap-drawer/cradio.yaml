@@ -1,0 +1,239 @@
+layout: {qmk_keyboard: ferris/sweep}
+layers:
+  default:
+  - $$mdi:keyboard-tab$$
+  - C
+  - L
+  - M
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - F
+  - U
+  - Z
+  - BKSP
+  - I
+  - {t: S, h: LCTL}
+  - {t: R, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: T, h: LGUI}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: N, h: RGUI}
+  - {t: K, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: A, h: RCTL}
+  - O
+  - {t: Q, h: '$$mdi:apple-keyboard-shift$$'}
+  - V
+  - W
+  - D
+  - {t: SPC, h: LC(LS(LALT))}
+  - E
+  - H
+  - Y
+  - {t: ., h: '!', s: '>'}
+  - {t: X, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: SPC, h: LC(LS(LALT))}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - E
+  left:
+  - {t: '$$mdi:transfer$$', type: trans}
+  - ATSN
+  - {t: LS(3), h: LC(LG(LS(4)))}
+  - $
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - LS(COMMA)
+  - LS(DOT)
+  - ^
+  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:keyboard-tab$$
+  - {t: '=', h: LCTL, s: +}
+  - {t: LA(RBKT), h: '$$mdi:apple-keyboard-option$$'}
+  - {t: LA(LS(RBKT)), h: LGUI}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '{', h: RGUI}
+  - {t: '}', h: '$$mdi:apple-keyboard-option$$'}
+  - {t: '|', h: RCTL}
+  - '&'
+  - {t: '~', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '`', s: '~'}
+  - LA(LBKT)
+  - LA(LS(LBKT))
+  - default
+  - right
+  - LPRN
+  - RPRN
+  - {t: ']', s: '}'}
+  - $$mdi:apple-keyboard-shift$$
+  - default
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - right
+  right:
+  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:play-pause$$
+  - $$mdi:skip-previous$$
+  - $$mdi:skip-next$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:keyboard-tab$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:volume-low$$', h: '$$mdi:apple-keyboard-option$$'}
+  - {t: '$$mdi:volume-high$$', h: LGUI}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '4', h: RGUI, s: $}
+  - {t: '5', s: '%'}
+  - {t: '6', s: ^}
+  - {t: '=', s: +}
+  - {t: bt, h: '$$mdi:apple-keyboard-shift$$'}
+  - '%'
+  - {t: /, s: '?'}
+  - '*'
+  - default
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '1', s: '!'}
+  - {t: '2', s: '@'}
+  - {t: '3', h: ., s: '#'}
+  - {t: '-', s: _}
+  - default
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  tri:
+  - {t: '$$mdi:transfer$$', type: trans}
+  - '&mwh SCROLL_LEFT'
+  - '&mmv MOVE_UP'
+  - '&mwh SCROLL_RIGHT'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - LC(LS(TAB))
+  - RC(TAB)
+  - LG(LBKT)
+  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:keyboard-tab$$
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_RIGHT'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:arrow-down-bold$$
+  - {t: '$$mdi:arrow-up-bold$$', h: '$$mdi:apple-keyboard-option$$'}
+  - {t: '$$mdi:arrow-right-bold$$', h: RCTL}
+  - LG(RBKT)
+  - $$mdi:apple-keyboard-shift$$
+  - '&mkp RCLK'
+  - '&mwh SCROLL_UP'
+  - '&mwh SCROLL_DOWN'
+  - default
+  - RGUI
+  - {t: PG DN, h: HOME}
+  - {t: PG UP, h: END}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-shift$$
+  - default
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - RGUI
+  bt:
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:progress-download$$', type: bootloader}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - BT PRV
+  - BT NXT
+  - $$mdi:bluetooth-off$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - default
+  - left
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - default
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - left
+combos:
+- p: [21, 22]
+  k: $$mdi:keyboard-esc$$
+- p: [7, 8]
+  k: tri
+- p: [27, 28]
+  k: RET
+- p: [30, 33]
+  k: left
+- p: [24, 25]
+  k: left
+- p: [12, 13]
+  k: G
+  l: [default]
+- p: [22, 23]
+  k: J
+  l: [default]
+- p: [16, 17]
+  k: P
+  l: [default]
+- p: [26, 27]
+  k: B
+  l: [default]
+- p: [8, 9]
+  k: ;
+  l: [default]
+- p: [20, 21]
+  k: ','
+  l: [default]
+- p: [0, 1]
+  k: {h: '-', s: _}
+  l: [default]
+- p: [28, 29]
+  k: /
+  l: [default]
+- p: [12, 13]
+  k: ''''
+  l: [left]
+- p: [22, 23]
+  k: '"'
+  l: [left]
+- p: [16, 17]
+  k: \
+  l: [left]
+- p: [26, 27]
+  k: {h: '[', s: '{'}
+  l: [left]
+- p: [26, 27]
+  k: '0'
+  l: [right]
+- p: [12, 13]
+  k: $$mdi:apple-keyboard-option$$
+  l: [tri]
+- p: [22, 23]
+  k: $$mdi:backspace-reverse-outline$$
+  l: [tri]
+- p: [16, 17]
+  k: $$mdi:arrow-left-bold$$
+  l: [tri]
+- p: [26, 27]
+  k: '&mkp LCLK'
+  l: [tri]
