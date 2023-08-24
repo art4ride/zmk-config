@@ -161,8 +161,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:bluetooth$$', h: '$$mdi:navigate-previous$$'}
-  - {t: '$$mdi:bluetooth$$', h: '$$mdi:navigate-next$$'}
+  - {t: '$$mdi:skip-previous$$', s: '$$mdi:bluetooth-connect$$'}
+  - {t: '$$mdi:skip-next$$', s: '$$mdi:bluetooth-connect$$'}
   - $$mdi:bluetooth-off$$
   - {t: '$$mdi:transfer$$', type: trans}
   - default
